@@ -1,6 +1,6 @@
-## ![parent icon](img/duik-icons/parentcomp-icon-r.png) Parent Accross Compositions
+# ![parent icon](img/duik-icons/parentcomp-icon-r.png) Parent Accross Compositions
 
-# Parenting
+## Parenting
 
 Sometimes, you may need to parent a layer to another one which is inside a precomposition, or on the contrary you may need to parent a layer to another one outside of the current composition, in a parent composition.
 
@@ -21,7 +21,18 @@ This is the tool, in *Standard Mode*:
     3. Parent all locators to this new null layer instead of the precomposition layer.  
     4. Now you can precompose the precomposition :)
 
-# ![](img/duik-icons/locator-icon.png) Locators (Expert and God mode only)
+## Un-Parenting
+
+To un-parent a layer which has been parented across compositions:
+
+- Un-Parent the child layer (in After Effects, set its parent to *None*).
+
+Then, **only if there is not another child to the same parent**:
+
+- Look for the parent locator in the same composition, and remove it.
+- Look for the parent locator in the parent compositions, and remove it.
+
+## ![](img/duik-icons/locator-icon.png) Locators (Expert and God mode only)
 
 ![](img/duik-screenshots/S-Rigging/S-Rigging-Constraints/ParentAcrossComp-locator.png)
 

@@ -59,7 +59,7 @@ nav:
             - Bones: bones.md
             - Auto-Parent: auto-parent.md
             - Parent Constraint: parent-constraint.md
-            - Parent Accross Comps: parent-accross-compositions.md
+            - Parent Across Comps: parent-accross-compositions.md
             - Path Constraint: path-constraint.md
             - Position Constraint: position-constraint.md
             - Orientation Constraint: orientation-constraint.md
