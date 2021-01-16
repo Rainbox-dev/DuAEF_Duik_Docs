@@ -86,10 +86,13 @@ On the bottom bar, you'll find some other useful buttons:
 
 The ***RX*** icon opens the [*Rainbox Lab.*](https://rainboxlab.org) website where you can find useful information about Duik and other tools.
 
-You can also read the version of Duik you're using, and the two buttons at the right open two other panels:
+You can also read the version of Duik you're using, and there are a few shortcut buttons on the right part:
 
-- [***Settings***](settings.md)
-- [***Help***](contextual-help.md)
+- ![icon](img/duik-icons/w18_bugreport_r.png) ***Bug Report***
+- ![icon](img/duik-icons/w18_featurerequest_r.png) ***Feature Request***
+- ![icon](img/duik-icons/w18_settings_r.png) [***Settings***](settings.md)
+- ![incon](img/duik-icons/w18_help_r.png) [***Help***](contextual-help.md)
+- ![incon](img/duik-icons/w14_brain_r.png) [***Sanity Report***](sanity.md)
 
 #### Individual panels
 
