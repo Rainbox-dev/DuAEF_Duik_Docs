@@ -2,6 +2,16 @@
 
 This is the list of what has changed since the first Alpha version of Duik Bassel (16)
 
+## 16.2.25
+
+#### Improvements
+
+- Added useful options to the [*Sanity checks*](sanity.md), along with new quick ways to fix detected issues.
+
+#### Fixes
+
+- [*Parenting across comps*](parent-accross-compositions.md) now takes the time offset of the precomposed layer into account.
+
 ## 16.2.24
 
 #### Fixes
