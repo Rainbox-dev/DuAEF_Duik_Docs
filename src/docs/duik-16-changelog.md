@@ -2,6 +2,12 @@
 
 This is the list of what has changed since the first Alpha version of Duik Bassel (16)
 
+## 16.2.26
+
+#### Fixes
+
+- Fixed a bug in the sanity tests initialization preventing Duik from correctly launching (*error at line 38454*).
+
 ## 16.2.25
 
 #### Improvements
