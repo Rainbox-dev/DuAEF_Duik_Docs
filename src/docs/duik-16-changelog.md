@@ -2,6 +2,12 @@
 
 This is the list of what has changed since the first Alpha version of Duik Bassel (16)
 
+## 16.2.27
+
+#### Fixes
+
+- The *"Fix Unused comp"* blocking popup has been removed. Disabled the corresponding live-fix option in the [*Sanity Tests*](sanity.md)
+
 ## 16.2.26
 
 #### Fixes
