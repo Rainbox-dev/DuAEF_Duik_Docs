@@ -2,6 +2,14 @@
 
 This is the list of what has changed since the first Alpha version of Duik Bassel (16)
 
+## 16.2.28
+
+#### Fixes
+
+- Fixed overlap simulation of the [Kleaner](kleaner.md) when used on a position property.
+- Fixed an issue where the [Kleaner](kleaner.md) used on a spatial property would skip a frame in the caluclation of the follow-through.
+- Fixed Duik storing settings in a wrong folder if the default one has been changed.
+
 ## 16.2.27
 
 #### Fixes
