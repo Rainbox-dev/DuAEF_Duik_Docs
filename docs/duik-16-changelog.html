@@ -8,9 +8,7 @@
   
   <meta name="author" content="Nicolas Dufresne and contributors">
   <link rel="shortcut icon" href="img/favicon.ico">
-  <title>Changelog - Duik Bassel.2<br />Documentation<br />v16.2.27</title>
-  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
-
+  <title>Changelog - Duik Bassel.2<br />Documentation<br />v16.2.28</title>
   <link rel="stylesheet" href="css/theme.css" type="text/css" />
   <link rel="stylesheet" href="css/theme_extra.css" type="text/css" />
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
@@ -38,7 +36,7 @@
     
     <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
       <div class="wy-side-nav-search">
-        <a href="index.html" class="icon icon-home"> Duik Bassel.2<br />Documentation<br />v16.2.27</a>
+        <a href="index.html" class="icon icon-home"> Duik Bassel.2<br />Documentation<br />v16.2.28</a>
         <div role="search">
   <form id ="rtd-search-form" class="wy-form" action="./search.html" method="get">
     <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
@@ -441,6 +439,8 @@
     
         <ul>
         
+            <li><a class="toctree-l3" href="#16228">16.2.28</a></li>
+        
             <li><a class="toctree-l3" href="#16227">16.2.27</a></li>
         
             <li><a class="toctree-l3" href="#16226">16.2.26</a></li>
@@ -603,7 +603,7 @@
       
       <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
         <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-        <a href="index.html">Duik Bassel.2<br />Documentation<br />v16.2.27</a>
+        <a href="index.html">Duik Bassel.2<br />Documentation<br />v16.2.28</a>
       </nav>
 
       
@@ -629,13 +629,20 @@
               
                 <h1 id="duik-bassel-changelog">Duik Bassel Changelog</h1>
 <p>This is the list of what has changed since the first Alpha version of Duik Bassel (16)</p>
-<h2 id="16227">16.2.27</h2>
+<h2 id="16228">16.2.28</h2>
 <h4 id="fixes">Fixes</h4>
+<ul>
+<li>Fixed overlap simulation of the <a href="kleaner.html">Kleaner</a> when used on a position property.</li>
+<li>Fixed an issue where the <a href="kleaner.html">Kleaner</a> used on a spatial property would skip a frame in the caluclation of the follow-through.</li>
+<li>Fixed Duik storing settings in a wrong folder if the default one has been changed.</li>
+</ul>
+<h2 id="16227">16.2.27</h2>
+<h4 id="fixes_1">Fixes</h4>
 <ul>
 <li>The <em>&ldquo;Fix Unused comp&rdquo;</em> blocking popup has been removed. Disabled the corresponding live-fix option in the <a href="sanity.html"><em>Sanity Tests</em></a></li>
 </ul>
 <h2 id="16226">16.2.26</h2>
-<h4 id="fixes_1">Fixes</h4>
+<h4 id="fixes_2">Fixes</h4>
 <ul>
 <li>Fixed a bug in the sanity tests initialization preventing Duik from correctly launching (<em>error at line 38454</em>).</li>
 </ul>
@@ -644,35 +651,35 @@
 <ul>
 <li>Added useful options to the <a href="sanity.html"><em>Sanity checks</em></a>, along with new quick ways to fix detected issues.</li>
 </ul>
-<h4 id="fixes_2">Fixes</h4>
+<h4 id="fixes_3">Fixes</h4>
 <ul>
 <li><a href="parent-accross-compositions.html"><em>Parenting across comps</em></a> now takes the time offset of the precomposed layer into account.</li>
 </ul>
 <h2 id="16224">16.2.24</h2>
-<h4 id="fixes_3">Fixes</h4>
+<h4 id="fixes_4">Fixes</h4>
 <ul>
 <li>Added an alert when <a href="scale-z-link.html"><em>Scale Z-Link</em></a> is used without camera.</li>
 <li>Fixed the <code>duplicatedNames[name] is undefined</code> error.</li>
 <li>Raised the limits of the <em>Zoom</em> and <em>Truck</em> properties in the <a href="camera-2d.html"><em>2D Camera</em></a> effect.</li>
 </ul>
 <h2 id="16223">16.2.23</h2>
-<h4 id="fixes_4">Fixes</h4>
+<h4 id="fixes_5">Fixes</h4>
 <ul>
 <li>Fixed Sanity checks with locked layers freezing Duik and other issues with layers sharing the same names.</li>
 </ul>
 <h2 id="16222">16.2.22</h2>
-<h4 id="fixes_5">Fixes</h4>
+<h4 id="fixes_6">Fixes</h4>
 <ul>
 <li>Fixed the bug preventing Duik from launching correctly through the <code>File/Scripts/Run Script File</code> menu entry.</li>
 <li>Fixed the too small help panel size in some specific cases. Unfortunately, we cannot restore the resizeable behaviour from previous versions due to some limitations and bugs in the scripting API of After Effects.</li>
 </ul>
 <h2 id="16221">16.2.21</h2>
-<h4 id="fixes_6">Fixes</h4>
+<h4 id="fixes_7">Fixes</h4>
 <ul>
 <li>Fixed the <a href="kleaner.html"><em>Kleaner</em></a> on non-spatial multi-dimensional properties (like scale).</li>
 </ul>
 <h2 id="16220">16.2.20</h2>
-<h4 id="fixes_7">Fixes</h4>
+<h4 id="fixes_8">Fixes</h4>
 <ul>
 <li>Fixed the <em>settingsFile is undefined</em> error on fresh installation.</li>
 <li>Fixed the additional panels (popups) being hidden after a short period of time.</li>
@@ -688,7 +695,7 @@
 <ul>
 <li>Improved the performance of the <a href="kleaner.html"><em>Kleaner</em></a> by 20-25%.</li>
 </ul>
-<h4 id="fixes_8">Fixes</h4>
+<h4 id="fixes_9">Fixes</h4>
 <ul>
 <li>Fixed <a href="controller-tools.html"><em>controller extraction</em></a> when some <a href="parent-accross-compositions.html"><em>locators</em></a> have been rigged/animated and don&rsquo;t have their default expression.</li>
 <li>Fixed additional panels not showing up on CS6.</li>
@@ -704,12 +711,12 @@
 <ul>
 <li>Updated some translations: Español, Français, 中文</li>
 </ul>
-<h4 id="fixes_9">Fixes</h4>
+<h4 id="fixes_10">Fixes</h4>
 <ul>
 <li>The popups don&rsquo;t show up outside of the screen anymore when invoked from the right or bottom edge.</li>
 </ul>
 <h2 id="16217">16.2.17</h2>
-<h4 id="fixes_10">Fixes</h4>
+<h4 id="fixes_11">Fixes</h4>
 <ul>
 <li>The units in the UI of the <a href="connector.html">Connector</a> are now correctly displayed.</li>
 <li>The values of the <a href="camera-2d.html">2D Camera</a> effect are no longer multiplied by the expressions.</li>
@@ -717,12 +724,12 @@
 <li>When creating leg <a href="structures.html">Structures</a>, &ldquo;heel&rdquo; is now correctly translated into available languages.</li>
 </ul>
 <h2 id="16216">16.2.16</h2>
-<h4 id="fixes_11">Fixes</h4>
+<h4 id="fixes_12">Fixes</h4>
 <ul>
 <li>Fixed the <a href="ik-fk-switch.html">IK/FK Switch</a> with extracted controllers still not working in specific cases.</li>
 </ul>
 <h2 id="16215">16.2.15</h2>
-<h4 id="fixes_12">Fixes</h4>
+<h4 id="fixes_13">Fixes</h4>
 <ul>
 <li>Fixed the <a href="ik-fk-switch.html">IK/FK Switch</a> with extracted controllers.</li>
 <li>The <a href="bones.html">bones</a> are now correctly created with the advanced engine and 3D layers.</li>
@@ -734,7 +741,7 @@
 <li>The way the expressions are built internally has been changed to ease future improvements in Duik. This should not change anything for the user, but as it&rsquo;s an important change, it&rsquo;s worth knowing and may temporarily introduce some bugs.</li>
 </ul>
 <h2 id="16214">16.2.14</h2>
-<h4 id="fixes_13">Fixes</h4>
+<h4 id="fixes_14">Fixes</h4>
 <ul>
 <li>Fixed the <a href="animation-blender.html">Animation Blender</a> tool for animators not working with compositions imported from another project. Be careful with composition names in this case!</li>
 <li>Fixed the <a href="kleaner.html">Spring/Kleaner</a> not working on some specific properties, like the strength of the <em>TextEvo</em> effect.</li>
@@ -744,14 +751,14 @@
 <li>Duik no longer crashes when trying to change the appearance of baked <a href="structure-tools.html">Structures</a>.</li>
 </ul>
 <h2 id="16213">16.2.13</h2>
-<h4 id="fixes_14">Fixes</h4>
+<h4 id="fixes_15">Fixes</h4>
 <ul>
 <li>Fixed <a href="controller-tools.html">Controller extraction</a> used with parent accross comps failing in specific cases.</li>
 <li>The <a href="parent-constraint.html">Parent constraint</a> now correctly adds the expression in the Z Position of 3D Layers with dimensions separated.</li>
 <li>The <a href="orientation-constraint.html">Orientation constraint</a> does not throw an expression error with the legacy engine anymore.</li>
 </ul>
 <h2 id="16212">16.2.12</h2>
-<h4 id="fixes_15">Fixes</h4>
+<h4 id="fixes_16">Fixes</h4>
 <ul>
 <li>Fixed <a href="parent-constraint.html">Parent constraint</a> offset on some frames.</li>
 <li>Fixed <a href="kleaner.html">Kleaner</a> expression error introduced in 16.2.11</li>
@@ -763,7 +770,7 @@
 <ul>
 <li><a href="parent-accross-compositions.html">Parent accross comps</a> now handles scale too.</li>
 </ul>
-<h4 id="fixes_16">Fixes</h4>
+<h4 id="fixes_17">Fixes</h4>
 <ul>
 <li>Fixed <a href="controller-tools.html">Controller extraction</a> and <a href="parent-accross-compositions.html">Parent accross comps</a> with (negative) scale values.</li>
 <li>Fixed multiple <a href="controller-tools.html">Controller extraction</a> (controllers extracted twice or more) in specific cases of inter-dependencies.</li>
@@ -772,7 +779,7 @@
 <li>You can now use values lower than 1 for the width of <a href="motion-trail.html">motion trails</a></li>
 </ul>
 <h2 id="16210">16.2.10</h2>
-<h4 id="fixes_17">Fixes</h4>
+<h4 id="fixes_18">Fixes</h4>
 <ul>
 <li>The <a href="wheel.html">Wheel</a> automation now works correctly with negative scales</li>
 <li>Improved Esperanto, French and Spanish translations.</li>
@@ -782,7 +789,7 @@
 <ul>
 <li>Duik is now available in <a href="https://en.wikipedia.org/wiki/Esperanto">Esperanto</a> too.</li>
 </ul>
-<h4 id="fixes_18">Fixes</h4>
+<h4 id="fixes_19">Fixes</h4>
 <ul>
 <li>Fixed the <a href="autorig.html">auto-rig</a> freezing when rigging (at once) tail structures and spine structures without hips.</li>
 <li>Properly centered the <a href="autorig.html">auto-rig</a> button on the <a href="structures.html">Structures</a> panel in <em>Expert</em> and <em>God</em> modes.</li>
@@ -795,7 +802,7 @@
 <li>When using the <a href="kleaner.html">Kleaner</a> through the <em>Spring</em> button, the <em>Spatial Options</em> are set to <em>Basic</em> instead of <em>Simulated</em> by default, in order to improve performance.</li>
 <li>The <a href="auto-parent.html">Auto-Parent</a> tool now parents only orphans whith [Alt + Click].</li>
 </ul>
-<h4 id="fixes_19">Fixes</h4>
+<h4 id="fixes_20">Fixes</h4>
 <ul>
 <li>Fixed an issue where controllers would not be linked properly after [extraction]((controller-tools.md) (happened when some controllers were duplicated layers).</li>
 </ul>
@@ -804,7 +811,7 @@
 <ul>
 <li>[Alt] + [Click] on the <a href="rigging-tools.html">remove expressions</a> button now removes expressions keeping the pre-expression value (instead of post-expression value by default)</li>
 </ul>
-<h4 id="fixes_20">Fixes</h4>
+<h4 id="fixes_21">Fixes</h4>
 <ul>
 <li>Fixed a bug where the <a href="autorig.html">auto-rig</a> would freeze when rigging arms with hooves.</li>
 <li><a href="controllers.html">Controller</a> as nulls are now created as 3D layers on Cameras and Lights too.</li>
@@ -818,7 +825,7 @@
 <ul>
 <li>Tagging layers as <a href="controller-tools.html">controllers</a> now automatically sets them to guide layers.</li>
 </ul>
-<h4 id="fixes_21">Fixes</h4>
+<h4 id="fixes_22">Fixes</h4>
 <ul>
 <li>Fixed a bug with bones set on a Bézier path on a shape layer with the legacy extendscript expression engine.</li>
 <li>Fixed a few minor bugs concerning layer parenting.</li>
@@ -833,7 +840,7 @@
 <li><a href="controllers.html">Controller</a> icons can now be flipped (see the effect of the controller).</li>
 <li>French and Spanish translations have been completed and improved.</li>
 </ul>
-<h4 id="fixes_22">Fixes</h4>
+<h4 id="fixes_23">Fixes</h4>
 <ul>
 <li>When extracting controllers using master properties, controllers with a parent which is something else than another controller are now correctly linked.</li>
 <li>Bones are now correctly aligned to shapes inside shape layers when the containing group(s) transformation is not 0.</li>
@@ -843,7 +850,7 @@
 <ul>
 <li>The <a href="kleaner.html"><em>Kleaner</em></a> now generates very nice animation when the <em>Bounce</em> option is checked in the <em>Follow through</em> section. Bounces are more realistic, but it&rsquo;s not a real simulation: they are synchronized to the actual frames of the composition so that you always see the contact, and bounces which would be shorter than two frames are &ldquo;snaped&rdquo; to the frames anyway. This is animation!</li>
 </ul>
-<h4 id="fixes_23">Fixes</h4>
+<h4 id="fixes_24">Fixes</h4>
 <ul>
 <li><a href="https://github.com/Rainbox-dev/DuAEF_Duik/issues/581"><em>Error at line 2514</em></a> and similar errors with the &ldquo;DuTranslator tr()&rdquo; function should not happen anymore (unless the dev&amp;debug mode is activated).</li>
 <li><a href="structures.html"><em>Structures</em></a> are now correctly duplicated using the <a href="structure-tools.html"><em>Duplicate</em></a> tool.</li>
@@ -855,7 +862,7 @@
 <li>The <a href="kleaner.html"><em>Kleaner</em></a> generates a better overlap and soft-body simulation. <em>Flexibility</em> setting improved.</li>
 <li>The UI for the <a href="settings.html"><em>settings</em></a> has been improved a bit.</li>
 </ul>
-<h4 id="fixes_24">Fixes</h4>
+<h4 id="fixes_25">Fixes</h4>
 <ul>
 <li>The <a href="kleaner.html"><em>Spring</em></a> tool now assigns correct default values when applied to multiple layers at once.</li>
 <li>Fixed the <a href="kleaner.html"><em>Kleaner / Spring</em></a> with 3D Layers and the legacy extendscript expression engine.</li>
@@ -871,7 +878,7 @@
 <ul>
 <li>The system used to display the news has been improved for better performance and better UI.</li>
 </ul>
-<h4 id="fixes_25">Fixes</h4>
+<h4 id="fixes_26">Fixes</h4>
 <ul>
 <li>Added a workaround for an <em>After Effects</em> bug in 17.0.0 (2020): when controller are extracted using master properties, a keyframe is added on the master property (only for this specific version of <em>After Effects</em>), which fixes the controllers not rotating correctly.</li>
 <li>Fixed the undo history when using the <a href="kleaner.html"><em>Kleaner / Spring</em></a>.</li>
@@ -889,7 +896,7 @@
 <li>When creating a [<em>Controller</em>] as a null layer, it better detects if it should be 3D, and is placed just on top of the topmost layer.</li>
 <li>Updated the French and Spanish translations.</li>
 </ul>
-<h4 id="fixes_26">Fixes</h4>
+<h4 id="fixes_27">Fixes</h4>
 <ul>
 <li>Fixed the <a href="kleaner.html"><em>Kleaner / Spring</em></a> for non-spatial multi-dimensionnal properties (like scale).</li>
 <li>Fixed the <a href="kleaner.html"><em>Kleaner / Spring</em></a> not working in simulation mode if the property doesn&rsquo;t have at least two keyframes.</li>
@@ -912,7 +919,7 @@
 <li>The <em>Wonder Unit Storyboarder import</em> now also imports images from the <em>Shot Generator</em>.</li>
 <li>The <a href="contextual-help.html">contextual help</a> has been updated.</li>
 </ul>
-<h4 id="fixes_27">Fixes</h4>
+<h4 id="fixes_28">Fixes</h4>
 <ul>
 <li>Fixed the <em>Storyboarder import</em> with the latest versions of <em>Wonder Unit Storyboarder</em>.</li>
 <li>Fixed the head controller of the <a href="autorig.html"><em>Auto-rig</em></a> to make it work correctly when adding a zero.</li>
@@ -922,7 +929,7 @@
 <ul>
 <li>You can now use custom controllers with the <a href="autorig.html">Auto-rig</a></li>
 </ul>
-<h4 id="fixes_28">Fixes</h4>
+<h4 id="fixes_29">Fixes</h4>
 <ul>
 <li>Fixed some bugs introduced in 16.1.2 (Slider controllers, effectors, and some constraints).</li>
 <li>Fixed <a href="autorig.html#ik-fk">manual IK Rigging</a>.</li>
@@ -932,7 +939,7 @@
 <ul>
 <li>Some expressions have been modernized, and the underlying system for generating expressions in Duik have been improved. This is going to improve performance in future versions. This work comes with a nice way to share an <a href="https://github.com/Rainbox-dev/DuAEF/tree/master/src/libs/expressionLib">expression library</a> for animators and developpers.</li>
 </ul>
-<h4 id="fixes_29">Fixes</h4>
+<h4 id="fixes_30">Fixes</h4>
 <ul>
 <li>The tool to <a href="separate-dimensions.html">separate dimensions</a> of properties now removes the keyframes from the original property.</li>
 <li>The tool to <a href="separate-dimensions.html">separate dimension</a> now correctly separates the dimensions of the position property too, using the <em>After Effects</em> native method.</li>
@@ -944,7 +951,7 @@
 <li>When <a href="controller-tools.html">extracting controllers</a> or rigging limbs with <a href="autorig/md">footroll</a>, the IK Data is now correctly linked and can be correctly detected by the new <a href="connector.html">Connector</a></li>
 </ul>
 <h2 id="1611">16.1.1</h2>
-<h4 id="fixes_30">Fixes</h4>
+<h4 id="fixes_31">Fixes</h4>
 <ul>
 <li>The <a href="connector.html">connector</a> no longer breaks project expressions when renaming comps in specific cases.</li>
 <li>The header of the <a href="controllers.html">controllers</a> panel is no longer hidden in <em>rookie</em> and <em>standard</em> modes.</li>
@@ -1019,7 +1026,7 @@
 <li><a href="controllers.html"><em>Controllers</em></a> as null layers are 3D layers when the selected layer is 3D.</li>
 <li>The <a href="path-constraint.html"><em>Path Constraint</em></a> can now be created in a single click.</li>
 </ul>
-<h4 id="fixes_31">Fixes</h4>
+<h4 id="fixes_32">Fixes</h4>
 <ul>
 <li>The version of Duik is now checked correctly (even for alpha and beta tests), and there is no warning if the version installed is the same than the available one.</li>
 <li>The <a href="controller-tools.html#extract-controllers"><em>extract controllers</em></a> tool now takes the precomposition start time into account in the links, thus you can safely move the precomposed character in time.</li>
@@ -1044,7 +1051,7 @@
 <li>Fixed the <a href="ik-fk-switch.html"><em>IK/FK switch</em></a> not working in some cases.</li>
 </ul>
 <h2 id="16012">16.0.12</h2>
-<h4 id="fixes_32">Fixes</h4>
+<h4 id="fixes_33">Fixes</h4>
 <ul>
 <li>Fixed the <a href="parent-constraint.html"><em>Parent constraint</em></a> expressions not working with the new Javascript enginge.</li>
 <li>Fixed the <em>Check for updates</em> failing at first start, always stating that a new version is available when it&rsquo;s not.</li>
@@ -1053,7 +1060,7 @@
 <li>Fixed the rotation in the <a href="camera-rig.html"><em>Camera Rig</em></a>.</li>
 </ul>
 <h2 id="16011">16.0.11</h2>
-<h4 id="fixes_33">Fixes</h4>
+<h4 id="fixes_34">Fixes</h4>
 <ul>
 <li>Fixed the <a href="connector.html"><em>Connector</em></a> when an angle is used as a controller property and in some cases there is a jump of 360 degrees, and <em>IK</em> rotation values.</li>
 <li>Fixed some <a href="structures.html"><em>Structures</em></a> bugs with the new JavaScript expression engine.</li>
@@ -1067,7 +1074,7 @@
 <li>[Alt + Click] on the <a href="zero.html"><em>Zero</em></a> button resets the position, rotation and scale of the layer.</li>
 <li>The User Interface has been tweaked to make it always better.</li>
 </ul>
-<h4 id="fixes_34">Fixes</h4>
+<h4 id="fixes_35">Fixes</h4>
 <ul>
 <li>When picking properties with Duik tools, if there is a disabled expression, it stays disabled instead of being enabled by the tool.</li>
 <li>UI: The buttons can now be clicked anywhere and not only on the text or the icon (except on CS6).</li>
@@ -1076,7 +1083,7 @@
 <li>Slider, 2D-slider and angle <a href="controllers.html"><em>controllers</em></a> are no longer broken when there are layers selected in the composition before creating them.</li>
 </ul>
 <h2 id="1609">16.0.9</h2>
-<h4 id="fixes_35">Fixes</h4>
+<h4 id="fixes_36">Fixes</h4>
 <ul>
 <li>The <em>Spring</em> expressions have been fixed and improved for After Effects 16.0</li>
 <li><a href="keyframe-tools.html"><em>Copy/Paste animation</em></a>, which was broken in 16.0.8, is fixed</li>
@@ -1086,12 +1093,12 @@
 <li>The <em>Storyboarder</em> importer now imports empty boards too.</li>
 </ul>
 <h2 id="1608">16.0.8</h2>
-<h4 id="fixes_36">Fixes</h4>
+<h4 id="fixes_37">Fixes</h4>
 <ul>
 <li>The <a href="walk-cycle.html"><em>Walk Cycle</em></a> now works with the new expression engine in After Effects 16.0</li>
 </ul>
 <h2 id="1607">16.0.7</h2>
-<h4 id="fixes_37">Fixes</h4>
+<h4 id="fixes_38">Fixes</h4>
 <ul>
 <li>The rigging <a href="rigging-tools.html"><em>tools</em></a> panel is displaying again.</li>
 <li>Adding <a href="bones.html"><em>Bones</em></a> on scaled layers no longer moves them to another location.</li>
@@ -1105,7 +1112,7 @@
 <ul>
 <li>Expressions used by Duik have been improved for the new expression engine in After Effects 16.0</li>
 </ul>
-<h4 id="fixes_38">Fixes</h4>
+<h4 id="fixes_39">Fixes</h4>
 <ul>
 <li><a href="random.html"><em>Random</em></a> tool now correctly sets values on animated properties.</li>
 <li><a href="parent-constraint.html"><em>Parent Constraint</em></a> now works when the dimensions of the position are separated.</li>
@@ -1128,7 +1135,7 @@
 <ul>
 <li>The <a href="effector.html"><em>Effector</em></a> layer is now created as a guide layer.</li>
 </ul>
-<h4 id="fixes_39">Fixes</h4>
+<h4 id="fixes_40">Fixes</h4>
 <ul>
 <li><a href="camera-2d.html"><em>2D Camera</em></a> no longer crashes if there&rsquo;s no active composition.</li>
 <li><a href="controller-tools.html#extract-controllers"><em>Extract controllers</em></a> no longer fails when launched from the additionnal panel of the tool.</li>
@@ -1140,12 +1147,12 @@
 <li>Fixed the tools not working if the composition is selected from the project panel and the composition in the viewer is not the same.</li>
 </ul>
 <h2 id="1604">16.0.4</h2>
-<h4 id="fixes_40">Fixes</h4>
+<h4 id="fixes_41">Fixes</h4>
 <ul>
 <li>Duik now really imports correctly Wonderunit Storyboarder files made with the latest version.</li>
 </ul>
 <h2 id="1603">16.0.3</h2>
-<h4 id="fixes_41">Fixes</h4>
+<h4 id="fixes_42">Fixes</h4>
 <ul>
 <li>Duik now imports correctly Wonderunit Storyboarder files made with the latest version.</li>
 </ul>
@@ -1154,13 +1161,13 @@
 <ul>
 <li>Duik now checks for updates and reads the news only once a day.</li>
 </ul>
-<h4 id="fixes_42">Fixes</h4>
+<h4 id="fixes_43">Fixes</h4>
 <ul>
 <li>The <em>Framing guides</em> are now created as guide layers.</li>
 <li>There is no longer any error when the serveur for news and updates is unavailable.</li>
 </ul>
 <h2 id="1601">16.0.1</h2>
-<h4 id="fixes_43">Fixes</h4>
+<h4 id="fixes_44">Fixes</h4>
 <ul>
 <li>Fixed the <em>Connector</em> used with a master property which has one dimension only.</li>
 </ul>
@@ -1178,7 +1185,7 @@
 <li>Completed French translation</li>
 <li>Completed Documentation (but without screenshots, and still needs more details)</li>
 </ul>
-<h4 id="fixes_44">Fixes</h4>
+<h4 id="fixes_45">Fixes</h4>
 <ul>
 <li>Fixed performance issue with the Copy/paste anim (when reversed keyframes is checked).</li>
 <li>Fixed <em>Select Keyframes</em> tool with properties with separated dimensions.</li>
@@ -1201,7 +1208,7 @@
 <li>The <em>Auto-rig</em> is smarter: it can rig a mix between predefined limbs and custom structures</li>
 <li>UI tweaks</li>
 </ul>
-<h4 id="fixes_45">Fixes</h4>
+<h4 id="fixes_46">Fixes</h4>
 <ul>
 <li>Fixed Bezier IK and Spine Auto-rig strange behavior</li>
 </ul>
@@ -1218,7 +1225,7 @@
 <li>The <em>Calculator</em> has been removed.</li>
 <li>Lots of UI tweaks and improvements</li>
 </ul>
-<h4 id="fixes_46">Fixes</h4>
+<h4 id="fixes_47">Fixes</h4>
 <ul>
 <li><em>Animation Panel</em>: the ease slider now automatically change linear keyframes to bezier with velocity set to 0.</li>
 <li>Clicking the <em>Autorig &amp; IK</em> button no longer crashes Duik when there are no active composition.</li>
@@ -1248,7 +1255,7 @@
 <li><em>Copy/Paste Animation</em>: option to replace existing animation or just add the new keyframes</li>
 <li><em>Copy/Paste Animation</em>: option to reverse keyframes</li>
 </ul>
-<h4 id="fixes_47">Fixes</h4>
+<h4 id="fixes_48">Fixes</h4>
 <ul>
 <li>Fixed the keyboard shortcuts for the <em>Bones</em> button in the options panel.</li>
 <li><em>Bones</em>: tangents width for the bones created on shapes (CC2018) is now adjusted with the size parameter of the bone.</li>
@@ -1273,7 +1280,7 @@
 <li><em>Wiggle</em>: you can now control the complexity of the wiggle (octaves and mutliplier) and manually set a <em>Random Seed</em> to keep the same wiggle accross layers.</li>
 <li>UX/UI tweaks and improvements, stability improved.</li>
 </ul>
-<h4 id="fixes_48">Fixes</h4>
+<h4 id="fixes_49">Fixes</h4>
 <ul>
 <li><em>Effector</em> set to infinite line is no longer reversed.</li>
 <li>Changing colors of controllers with Duik no longer freezes Duik.</li>
@@ -1308,7 +1315,7 @@
 <li>The <em>Connector</em> now automatically populates the &ldquo;min&rdquo; and &ldquo;max&rdquo; values based on the actual animation of the master property.</li>
 <li>A lot UI adjustments and improvements</li>
 </ul>
-<h4 id="fixes_49">Fixes</h4>
+<h4 id="fixes_50">Fixes</h4>
 <ul>
 <li><em>FK Overlap</em> now working correctly with a parent.</li>
 <li><em>Bezier IK</em> curve controller now created at a correct size, depending on the settings of the controllers.</li>
@@ -1332,7 +1339,7 @@
 <li>UI Tweaks. Lots of invisible tweaks.</li>
 <li>Some performance improvements (especially with some expressions in the Structures).</li>
 </ul>
-<h4 id="fixes_50">Fixes</h4>
+<h4 id="fixes_51">Fixes</h4>
 <ul>
 <li><em>List</em>: no more error when applying on a spatial property (but spatial tangents will be lost)</li>
 <li><em>FK Overlap</em> now works better even when the root has a parent.</li>
@@ -1359,7 +1366,7 @@
 <li><em>Expert Mode</em> UI improvements</li>
 <li><em>Structures</em> rotation and scale are now reset to 0 and 100% before applying IK/autorig</li>
 </ul>
-<h4 id="fixes_51">Fixes</h4>
+<h4 id="fixes_52">Fixes</h4>
 <ul>
 <li><em>Bezier IK</em> not selecting the controller at the end of the creation.</li>
 <li><em>Bezier IK</em> handles now working even when guides are hidden</li>
@@ -1378,7 +1385,7 @@
 <li>User Interface has been polished | The <em>Expert mode</em> might still have some issues which will be fixed later</li>
 <li>Layers created by Duik are now tagged with a marker. The marker can be renamed by the user, but cannot be removed: some data is stored internally to help Duik identify the layers and compute stuff.</li>
 </ul>
-<h4 id="fixes_52">Fixes</h4>
+<h4 id="fixes_53">Fixes</h4>
 <ul>
 <li><em>Bezier IK</em> the &ldquo;curve&rdquo; controller is now a position controller.</li>
 <li>Removed the <em>Attachment Constraint</em> which did not work as expected. Use the other constraints instead.</li>
@@ -1400,7 +1407,7 @@
 <li>UI: Improved animation panel (separated keyframe tools and animation tools)</li>
 <li>Better naming conventions for controllers, bones, structures&hellip;</li>
 </ul>
-<h4 id="fixes_53">Fixes</h4>
+<h4 id="fixes_54">Fixes</h4>
 <ul>
 <li><em>Effector</em> now works when re-using an existing controller layer.</li>
 <li><em>Randomize</em> for properties and keyframes</li>
