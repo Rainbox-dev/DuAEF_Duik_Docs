@@ -2,6 +2,15 @@
 
 This is the list of what has changed since the first Alpha version of Duik Bassel (16)
 
+## 16.2.29
+
+#### Fixes
+
+- Fixed error shown when trying to use the *[Spring](kleaner.md)* automaition without any selected property.
+- A single undo group is now created when using the *[Spring](kleaner.md)* instead of several different groups.
+- After Effects no longer freezes when trying to create *[Bones](bones.md)* with just the *Effects* group selected.
+- *[Wiggle](wiggle.md)* expressions have been improved to fix potential bugs, especially when using the legacy engine.
+
 ## 16.2.28
 
 #### Fixes
